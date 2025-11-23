@@ -21,7 +21,7 @@ services:
       SPRING_DATASOURCE_PASSWORD: pass
       JWT_SECRET: 'ZmFrZS1iYXNlNjQtc2VjcmV0LWZvci1kZW1v'
     ports:
-      - "8080:8080"
+      - "8081:8080"
 
 volumes:
   db-data:
